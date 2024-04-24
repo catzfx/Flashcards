@@ -1,0 +1,1 @@
+title = 'Flashcards 0.0.1\n||Terminal Edition||\n'
