@@ -63,4 +63,4 @@ def learner():
         due_list = due_search()
     if len(due_list) == 0:
         wipe()
-        input("No more cards due. Press enter to return to main menu")
+        input("No more cards due. Press -enter- to return to main menu")
