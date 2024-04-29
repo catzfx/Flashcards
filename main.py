@@ -4,8 +4,7 @@ import learner
 ##### FLASHCARDS ATESTAT INFO 2024 ####
  #### made by CRACIUN IUSTIN-ANDI ####
   ###        functia main         ###
-loop = True
-while loop:
+while True:
     wipe()
     print('Welcome to Flashcards by Craciun Iustin Andi.\n')
     print('1. Enter Learning Mode')
@@ -16,7 +15,7 @@ while loop:
     option = int(input('> '))
     if option == 5:
         wipe(quit=True)
-        loop = False
+        break
     elif option == 4:
         print("    Flashcards is a learning app that works on the principle of spaced repetition: if you review a piece of knowledge repeatedly, it will enter your long term memory. Each time you review, the time that knowledge remains in your mind increases, which means that eventually you will only see a card every few months, because it (presumably) is already engrained in your brain.\n    Cards: Cards are pairs of questions and answers. When in Learning Mode, you will first only see the question, and you will try to remember what the answer was. After revealing the answer, if you turned out to be wrong, you will let the program know, and it'll show you that card sooner in the future. If you knew the answer, it'll show you that card less in the future.\n    Ease: Ease refers to the algorithm governing the frequency at which you're shown specific cards. In this program, the first 5 values are specified, and all values above that increase exponentially with powers of two.\n    The Card Manager: The Card Manager is the tool with which you can manage your local card database by adding or removing cards and such.")
         input("\nPress -enter- to return to top")
