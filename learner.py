@@ -1,6 +1,6 @@
 from tinydb import TinyDB, Query
 import datetime
-from wipe import wipe
+from extra import wipe
 
 db = TinyDB('./db.json')
 settings = TinyDB('./settings.json')

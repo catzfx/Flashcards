@@ -1,5 +1,5 @@
 from tinydb import TinyDB, Query
-from wipe import wipe
+from extra import wipe
 
 settings_db = TinyDB('./settings.json')
 Setting = Query()

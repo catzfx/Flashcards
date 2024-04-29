@@ -1,6 +1,6 @@
 from tinydb import TinyDB, Query
 from datetime import datetime
-from wipe import wipe
+from extra import wipe
 db = TinyDB('./db.json')
 cardq = Query()
 print('\n\n::Card Manager::')

@@ -1,5 +1,5 @@
 import subprocess
-from wipe import wipe
+from extra import wipe
 
 ##### FLASHCARDS ATESTAT INFO 2024 ####
  #### made by CRACIUN IUSTIN-ANDI ####
