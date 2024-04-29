@@ -1,8 +1,7 @@
-from tinydb import TinyDB, Query
+from tinydb import TinyDB
 from extra import wipe
 
 settings_db = TinyDB('./settings.json')
-Setting = Query()
 def run():
     try:
         edit_settings()
