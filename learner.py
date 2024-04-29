@@ -9,7 +9,7 @@ ease_list = settings.get(doc_id=1).get('ease')
 def run():
     try:
         learner()
-    except KeyboardInterrupt():
+    except KeyboardInterrupt:
         pass
 
 def due_search():
