@@ -1,10 +1,9 @@
 import subprocess
 from extra import wipe
-import learner, card_manager
+import learner, card_manager, edit_settings
 ##### FLASHCARDS ATESTAT INFO 2024 ####
  #### made by CRACIUN IUSTIN-ANDI ####
   ###        functia main         ###
-
 def main():
     while True:
         wipe()
@@ -27,7 +26,7 @@ def main():
         elif option == 2:
             card_manager.run()
         elif option == 3:
-            subprocess.run(['python','./edit_settings.py'])
+            edit_settings.run()
 
 try:
     main()
